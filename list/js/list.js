@@ -37,9 +37,9 @@ $(function(){
 		pagination: {
 			el: ".swiper-pagination",
 			clickable: true,
-		  },	
-		  loop: true,
-		  breakpoints: {
+		},	
+		loop: true,
+		breakpoints: {
 			200: {
 				slidesPerView: 1
 			},
