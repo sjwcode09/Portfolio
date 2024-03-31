@@ -1,0 +1,667 @@
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, dl, dd {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+ul, ol {
+	list-style: none;
+}
+img {
+	max-width: 100%;
+	vertical-align: top;
+	border: none;
+}
+body {
+	font-family: "Montserrat", "Noto Sans KR", sans-serif;
+	font-size: 1em;
+	background-color: #000;
+}
+body.fixed {
+	overflow-y: hidden;
+}
+.clearfix::before, .clearfix::after {
+	content: "";
+	display: block;
+}
+.clearfix::after {
+	clear: both;
+}
+img {
+	vertical-align: middle;
+}
+#header {
+    position: fixed;	
+    /* position: absolute; */
+    width: 100%;
+    z-index: 999;
+}
+#header .inner {
+    display: flex;
+    position: relative;
+	/* position: fixed;
+	width: 1400px; */
+    justify-content: space-between;
+    align-items: center;
+    height: 83px;
+    padding: 0 50px;
+}
+/* #header .inner .tab {
+	text-indent: -99999px;
+    align-items: center;
+    position: absolute;
+    right: 10vw;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+    z-index: 2000;
+    overflow: hidden;
+    background: url(../images/tab.png) center center no-repeat;
+} */
+
+
+
+#header .inner .logo h1 a {
+    letter-spacing: 10px;
+	font-size: 36px; /**/
+	font-family: "Tourney", sans-serif;
+	color: #fff;
+}
+
+
+@media only screen and (max-width: 1020px) {
+	#gnb {
+		display: none;
+	}
+}
+#gnb ul {
+	display: flex;
+	/* padding-right: 80px; */
+}
+#gnb li {
+	display: inline-block;
+	margin-left: 50px;
+}
+#gnb li:first-child {
+	margin-left: 0;
+}
+#gnb li a {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	/* font-size: 0.813em; */
+	font-size: 13px;
+	font-weight: 500;
+	color: #B7B4B4;
+	transition: color 0.3s;
+	padding-bottom: 5px;
+}
+
+/* #gnb.dark li a {
+	color: #333;
+} */
+#gnb li.active a {
+	/* color: #09f;
+	border-bottom: 3px solid #09f; */
+	color: #333;
+	border-bottom: 3px solid #333;
+}
+#gnb li.active a {
+	color: #f52f23;
+	border-bottom: 3px solid #f52f23;
+}	
+/* section */
+section {
+	padding-top: 7.5em;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+section .inner .project_label h2 {
+	text-align: center;
+	font-size: 2.4em;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 20px;
+}
+section .inner .project_label {
+	position: relative;
+}
+section .inner .project_label h2::after {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom: -20%;
+	width: 60px;
+	height: 2px;
+	background-color: #fff;
+	transform: translateX(-50%);
+}
+#project1,
+#project2,
+#project3,
+#project4,
+#project5,
+#project6,
+#project7,
+#project8 {
+	padding-top: 6.8em;
+	/* border-top: 1px solid #f52f23; */
+}
+section .inner .project .title_area {
+	position: relative;
+	margin: 0 auto;
+	padding-bottom: 3.125em;
+	max-width: 1280px;
+	opacity: 0;
+	transform: translateX(-200px);
+	transition: opacity 0.4s, transform 1.2s;
+}
+section.active .inner .project .title_area {
+	opacity: 1;
+	transform: translateX(0);
+}
+section .inner .project .title_area .title a {
+	transition: color 0.3s;
+}
+section .inner .project .title_area .title a:hover {
+	color: #f52f23;
+}
+section .inner .project.active .title_area .title a {
+	color: #f52f23;
+}
+section .inner .project .title_area .title a .fas.fa-play {
+	display: block;
+	position: absolute;
+	left: 2px;
+	top: 0;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	border-radius : 50%;
+	transition: background-color 0.3s;
+}
+section .inner .project.active .title_area .title a .fas.fa-play {
+	background-color: #f52f23;
+	transform: rotate(90deg);
+}
+section .inner .project .title_area .title a:hover .fas.fa-play {
+	background-color: #f52f23;
+}
+section .inner .project .title_area .title a .fas.fa-play::before {
+	padding-left: 5px;
+}
+section .inner .project.active .title_area .title a .fas.fa-play::before {
+	padding-left: 0;
+}
+section .inner .project .title_area .title a .txt {
+	margin-left: 65px;
+}
+section .inner .project .title_area .title a .txt h3 {
+	font-size: 1.8em;
+}
+section .inner .project .title_area .title a .txt span {
+	font-size: 0.875em;
+	font-weight: 300;
+	letter-spacing: 8px;
+	color: #fff;
+}
+section .inner .project .title_area .content {
+	margin-top: 3.125em;
+}
+section .inner .project .title_area .content {
+	margin-top: 3.125em;
+}
+section .inner .project .title_area .content ul li {
+	display: inline-block;
+	margin-left: 2%;
+	width: 23%;
+	vertical-align: top;
+}
+section .inner .project .title_area .content ul li:first-child {
+	margin-left: 0;
+}
+section .inner .project .title_area .content ul li span {
+	display: block;
+}
+section .inner .project .title_area .content ul li span.label {
+	line-height: 2;
+	font-size: 0.913em;
+	font-weight: 600;
+	border-bottom: 1px solid #3b3b3b;
+	color: #b6b6b6;
+}
+section .inner .project .title_area .content ul li span + span {
+	line-height: 2;
+	font-size: 0.875em;
+	font-weight: 500;
+	color: #fff;
+}
+
+
+
+section .inner .project .fixed_area1{
+	display: none;
+	height: 7.5em;
+	background: url(../images_list/project1_bg.png) no-repeat 0 0 fixed;
+	background-size: cover;
+}
+section .inner .project .fixed_area2{
+	display: none;
+	height: 7.5em;
+	background: url(../images_list/project2_bg.png) no-repeat 0 0 fixed;
+	background-size: cover;
+}
+section .inner .project .fixed_area3{
+	display: none;
+	height: 7.5em;
+	background: url(../images_list/project3_bg.png) no-repeat 0 0 fixed;
+	background-size: cover;
+}
+section .inner .project .fixed_area4 {
+	display: none;
+	height: 7.5em;
+	background: url(../images_list/project4_bg.png) no-repeat 0 0 fixed;
+	background-size: cover;
+}
+section .inner .project .fixed_area5 {
+	display: none;	
+	height: 7.5em;
+	background: url(../images_list/project5_bg.png) no-repeat 0 0 fixed;
+	background-size: cover;
+}
+section .inner .project .fixed_area6 {
+	display: none;	
+	height: 7.5em;
+	background: url(../images_list/project6_bg.png) no-repeat 0 0 fixed;
+	background-size: cover;
+}
+section .inner .project .fixed_area7 {
+	display: none;	
+	height: 7.5em;
+	background: url(../images_list/project7_bg.png) no-repeat 0 0 fixed;
+	background-size: cover;
+}
+section .inner .project .fixed_area8 {
+	display: none;	
+	height: 7.5em;
+	background: url(../images_list/project8_bg.png) no-repeat 0 0 fixed;
+	background-size: cover;
+}
+section .inner .project.active .fixed_area1, 
+section .inner .project.active .fixed_area2,
+section .inner .project.active .fixed_area3,
+section .inner .project.active .fixed_area4,
+section .inner .project.active .fixed_area5,
+section .inner .project.active .fixed_area6,
+section .inner .project.active .fixed_area7,
+section .inner .project.active .fixed_area8 {
+	display: block;
+}
+
+
+section .inner .project .thumbnail {
+	display: none;
+	margin: 0 auto;
+	width: 16.250em;
+	border: 5px solid #ddd;
+	border-radius: 50%;
+}
+section .inner .project.active .thumbnail {
+	display: none;
+}
+section .inner .project .overview_area {
+	display: none;
+	margin: 0 auto;
+	padding-top: 5.625em;
+	max-width: 1280px;
+}
+section .inner .project.active .overview_area {
+	display: block;
+}
+section .inner .project .overview_area .title {
+	font-size: 2em;
+	color: #fff;
+}
+section .inner .project .overview_area .content {
+	margin-top: 3.125em;
+}
+section .inner .project .overview_area .content ul li {
+	display: inline-block;
+	margin-left: 2%;
+	width: 23%;
+	vertical-align:top;
+}
+section .inner .project .overview_area .content ul li:first-child {
+	margin-left: 0;
+}
+section .inner .project .overview_area .content ul li span {
+	display: block;
+}
+section .inner .project .overview_area .content ul li span.label {
+	line-height: 2;
+	font-size: 0.913em;
+	font-weight: 600;
+	border-bottom: 1px solid #3b3b3b;
+	color: #b6b6b6;
+}
+section .inner .project .overview_area .content ul li span + span {
+	line-height: 2;
+	font-size: 0.875em;
+	font-weight: 500;
+	color: #fff;
+}
+section .inner .project .overview_area .link {
+	margin-top: 3.125em;
+	display: flex;
+	gap: 20px;
+}
+section .inner .project .overview_area .link a {
+	display: inline-block;
+	position: relative;
+	padding-left: 1.75em;
+	line-height: 3.3;
+	width: 10em;
+	/* background-color: #000; */
+	border: 1px solid #fff;
+	color: #fff;
+	transition: background-color 0.3s;
+}
+section .inner .project .overview_area .link a:hover {
+	background-color: #f52f23;
+	border: 1px solid #f52f23;
+}
+section .inner .project .overview_area .link a::after {
+	content: "";
+	position: absolute;
+	right: 19px;
+	bottom: 20px;
+	width: 25px;
+	height: 10px;
+	background: url(../images/icon_next.png) no-repeat;
+}
+section .inner .project .sub {
+	display: none;
+}
+section .inner .project.active .sub {
+	display: block;
+}
+section .pc {
+	margin-top: 9.375em;
+	/* background-color: #e8e8e8; */
+}
+section .pc .inner {
+	position: relative;
+	top: 7em;
+	margin: 0 auto;
+	max-width: 1280px;
+}
+section .pc .inner .title span {
+	font-size: 2em;
+	font-weight: 800;
+	font-style: italic;
+	color: #fff;
+}
+section .pc .inner .title p {
+	margin-top: 20px;
+	color: #fff;
+}
+section .pc .inner .photo {
+	margin-top: 3.125em;
+}
+section .pc .inner .photo img {
+	max-width: 100%;
+}
+section .mobile {
+	/* margin-top: 12.5em; */
+	padding: 7em 0 7.5em;
+	/* background-color: #e8e8e8; */
+}
+section .mobile .inner {
+	margin: 0 auto;
+	max-width: 1280px;
+}
+section .mobile .inner .title span{
+	font-size: 2em;
+	font-weight: 800;
+	font-style: italic;
+	color: #fff;
+}
+section .mobile .inner .title p {
+	margin-top: 20px;
+	color: #fff;
+}
+section .mobile .inner .photo {
+	margin-top: 3.125em;
+	text-align: center;
+	border-bottom: 1px solid #3b3b3b;
+}
+section .mobile .inner .photo ul li{
+	float: left;
+	width: 33.3%;
+}
+section .mobile .inner .photo ul li img {
+	max-width: 100%;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1280px) {
+	section .inner .project .title_area {
+		padding: 0 2.5em 3.125em;
+		box-sizing: border-box;
+	}
+	section .inner .project .title_area .title a .fas.fa-play {
+		left: 41px;
+	}
+	section .inner .project .overview_area {
+		padding: 5.625em 2.5em 2.5em;
+	}
+	section .pc .inner .title,
+	section .mobile .inner .title {
+		padding: 0 2.5em;
+		box-sizing: border-box;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	section .inner .project_label h2 {
+		font-size: 2.5em;
+	}
+	section .inner .project .title_area .title a .txt h3  {
+		font-size: 2.188em;
+	}
+	section .inner .project .overview_area .title {
+		font-size: 1.875em;
+	}
+	section .pc {
+		margin-top: 7.375em;
+	}
+	section .pc .inner {
+		top: 7.375em;
+	}
+	section .pc .inner .title span,
+	section .mobile .inner .title span {
+		font-size: 1.875em;
+	}
+	section .mobile {
+		padding: 7.375em 0 7.5em;
+	}
+	#project2,
+	#project3,
+	#project4,
+	#project5,
+	#project6,
+	#project7,
+	#project8{ 
+		margin-top: 4em;
+	}
+}
+@media only screen and (max-width: 760px) {
+	section .inner .project .title_area .title a .txt h3  {
+		font-size: 1.875em;
+	}
+	section .inner .project .title_area .title a .txt span {
+		font-size: 0.938em;
+		letter-spacing: 4px;
+	}
+	section .inner .project .title_area .content ul li {
+		margin-left: 0;
+		width: 100%;
+	}
+	section .inner .project .title_area .content ul li span.label {
+		font-size: 0.938em;
+	}
+	section .inner .project .title_area .content ul li span + span {
+		font-size: 0.813em;
+	}
+	section .inner .project .overview_area .title {
+		font-size: 1.75em;
+	}
+	section .inner .project .overview_area .content ul li {
+		margin-left: 0;
+		width: 100%;
+	}
+	section .inner .project .overview_area .content ul li span.label{
+		font-size: 0.938em;
+	}
+	section .inner .project .overview_area .content ul li span + span {
+		font-size: 0.813em;
+	}
+	section .pc {
+		margin-top: 6.375em;
+	}
+	section .pc .inner {
+		top: 6.375em;
+	}
+	section .pc .inner .title span,
+	section .mobile .inner .title span {
+		font-size: 1.75em;
+	}
+	section .pc .inner .title p,
+	section .mobile .inner .title p {
+		line-height: 1.7;
+		word-break: keep-all;
+		font-size: 0.938em;
+	}
+	section .mobile {
+		padding: 6.375em 0 7.5em;
+	}
+	#project2,
+	#project3,
+	#project4,
+	#project5,
+	#project6,
+	#project7,
+	#project8{ 
+		margin-top: 3em;
+	}
+}
+@media only screen and (max-width: 540px) {
+	section .mobile .inner .photo ul li {
+		float: none;
+		width: 100%;
+	}
+	section .mobile .inner .photo ul li:first-child,
+	section .mobile .inner .photo ul li:last-child {
+		display: none;
+	}
+}
+@media only screen and (max-width: 460px) {
+	section {
+		padding-top: 5em;
+	}
+	section .inner .project_label h2 {
+		font-size: 2em;
+	}
+	#project1 {
+		margin-top: 6.5em;
+	}
+	section .inner .project .overview_area .link {
+		display: block;
+	}
+	section .inner .project .overview_area .link a:last-child {
+		display: block;
+		margin-top: 20px;
+	}
+	section .inner .project .title_area .title a .fas.fa-play {
+		left: 40px;
+		width: 52px;
+		height: 52px;
+		line-height: 52px;
+	}
+	section .inner .project .title_area .title a .txt {
+		margin-left: 60px;
+	}
+	section .inner .project .title_area .title a .txt h3  {
+		font-size: 1.438em;
+	}
+	section .inner .project .title_area .content {
+		display: none;
+	}
+	section .inner .project .fixed_area,
+	section .inner .project .fixed_area2 {
+		display: none;
+	}
+	section .inner .project.active .fixed_area1,
+	section .inner .project.active .fixed_area2, 
+	section .inner .project.active .fixed_area3,
+	section .inner .project.active .fixed_area4,
+	section .inner .project.active .fixed_area5,
+	section .inner .project.active .fixed_area6,
+	section .inner .project.active .fixed_area7,
+	section .inner .project.active .fixed_area8 {
+		display: none;
+	}
+	section .inner .project.active .thumbnail {
+		display: block;
+	}
+	section .inner .project .overview_area {
+		padding: 5em 2.5em 0;
+		box-sizing: border-box;
+	}
+	section .inner .project .overview_area .title {
+		font-size: 1.438em;
+	}
+	section .inner .project .overview_area .content ul li span.label {
+		font-size: 1em;
+		border-bottom: 1px solid #ccc;
+	}
+	section .pc .inner {
+		top: 4.375em;
+	}
+	section .pc .inner .title span,
+	section .mobile .inner .title span {
+		font-size: 1.438em;
+	}
+	section .pc .inner .br {
+		display: none;
+	}
+	section .mobile {
+		margin-top: 10em;
+		padding: 4.375em 0 3.5em;
+	}
+	section .mobile .inner .photo {
+		margin: 3.125em 0 0;
+	}
+	#project2,
+	#project3,
+	#project4,
+	#project5,
+	#project6,
+	#project7,
+	#project8{ 
+		margin-top: 2.5em;
+	}
+}

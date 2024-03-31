@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <path data-name="사각형 1069" style="fill:none" d="M0 0h40v40H0z"/>
+    <g data-name="pause" transform="translate(5 4.999)">
+        <circle data-name="타원 119" cx="15" cy="15" r="15" style="stroke:#fff;stroke-width:2px;fill:none"/>
+        <path data-name="다각형 18" d="M6.744 1.429a1 1 0 0 1 1.715 0l5.841 9.726a1 1 0 0 1-.857 1.514H1.766a1 1 0 0 1-.857-1.514z" transform="rotate(90 7.776 15.315)" style="fill:#fff"/>
+    </g>
+</svg>

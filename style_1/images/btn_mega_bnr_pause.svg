@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <path data-name="사각형 1069" style="fill:none" d="M0 0h40v40H0z"/>
+    <g data-name="pause" transform="translate(5.513 5.511)">
+        <circle data-name="타원 119" cx="15.049" cy="15.049" style="stroke:#fff;stroke-width:2px;fill:none" r="15.049"/>
+        <path data-name="패스 274" d="M10 6h2.824v14.168H10zm7.209 0h2.824v14.168h-2.824z" transform="translate(.032 2.153)" style="fill:#fff;fill-rule:evenodd"/>
+    </g>
+</svg>

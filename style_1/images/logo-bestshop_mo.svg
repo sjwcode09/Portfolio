@@ -1,0 +1,118 @@
+<svg id="로고수정m" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="445.902" height="47" viewBox="0 0 445.902 47">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.481" cy="0.485" r="0.521" gradientTransform="matrix(1, 0, 0, -1, 0, 2.319)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bf0c3f"/>
+      <stop offset="0.5" stop-color="#bf0c3f"/>
+      <stop offset="0.753" stop-color="#bc0b3d"/>
+      <stop offset="0.859" stop-color="#b5093a"/>
+      <stop offset="0.938" stop-color="#a90534"/>
+      <stop offset="1" stop-color="#99002c"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.336" y1="0.05" x2="0.664" y2="0.95" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f38895"/>
+      <stop offset="0.086" stop-color="#eb7487"/>
+      <stop offset="0.314" stop-color="#d84768"/>
+      <stop offset="0.517" stop-color="#ca2751"/>
+      <stop offset="0.687" stop-color="#c21343"/>
+      <stop offset="0.801" stop-color="#bf0c3f"/>
+      <stop offset="1" stop-color="#bf0c3f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.098" y1="0.196" x2="0.808" y2="0.902" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cd425c"/>
+      <stop offset="0.089" stop-color="#bd3251"/>
+      <stop offset="0.249" stop-color="#a91e43"/>
+      <stop offset="0.43" stop-color="#9b1038"/>
+      <stop offset="0.648" stop-color="#920732"/>
+      <stop offset="1" stop-color="#900531"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b4bdc3"/>
+      <stop offset="0.04" stop-color="#adb6bc"/>
+      <stop offset="0.498" stop-color="#6b7379"/>
+      <stop offset="0.83" stop-color="#424950"/>
+      <stop offset="1" stop-color="#333940"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b3bbc1"/>
+      <stop offset="0.081" stop-color="#a6aeb3"/>
+      <stop offset="0.52" stop-color="#636b70"/>
+      <stop offset="0.838" stop-color="#394146"/>
+      <stop offset="1" stop-color="#2a3236"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="11.859" y1="5.951" x2="11.946" y2="5.951" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#abbac2"/>
+      <stop offset="1" stop-color="#262a30"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="2.209" y1="1.23" x2="2.222" y2="1.23" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b4bdc3"/>
+      <stop offset="1" stop-color="#3e454d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="2.447" y1="1.316" x2="2.462" y2="1.316" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b4bdc3"/>
+      <stop offset="1" stop-color="#485159"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-2" cx="0.298" cy="0.288" r="0.764" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.35" stop-color="#fff"/>
+      <stop offset="0.511" stop-color="#fafbfc"/>
+      <stop offset="0.677" stop-color="#eef1f3"/>
+      <stop offset="0.845" stop-color="#d9e0e4"/>
+      <stop offset="1" stop-color="#c0ccd2"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0.293" cy="0.316" r="0.78" gradientTransform="translate(-0.027)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.35" stop-color="#fff"/>
+      <stop offset="0.537" stop-color="#fafbfc"/>
+      <stop offset="0.73" stop-color="#eef1f3"/>
+      <stop offset="0.926" stop-color="#d9e1e5"/>
+      <stop offset="1" stop-color="#d0dadf"/>
+    </radialGradient>
+  </defs>
+  <g id="원로고_수정" data-name="원로고 수정">
+    <g id="Group_433" transform="translate(0)">
+      <path id="Path_254" d="M155.524,344.638a23.5,23.5,0,1,0,23.515,23.683v-.368a23.5,23.5,0,0,0-23.515-23.315Z" transform="translate(-132.039 -344.638)" fill="url(#radial-gradient)"/>
+      <path id="Path_255" d="M146.686,359.22c-7.941,7.949-8.752,20.063-1.773,27.043s19.082,6.178,27.033-1.783,8.765-20.076,1.783-27.056a16.584,16.584,0,0,0-11.889-4.754,21.67,21.67,0,0,0-15.16,6.543" transform="translate(-139.007 -351.535)" fill="url(#linear-gradient)"/>
+      <path id="Path_256" d="M178.167,400.532l.58-.324V380.393l-.144-.23.144-.042v-.029h.1l1.754-.6.314.541a.207.207,0,0,1,.044.149l-.018,18.043H185.2l.342.535a.308.308,0,0,1,.052.219v1.815a.143.143,0,0,1-.131.162h-6.52a.6.6,0,0,1-.324-.1Zm21.155-11.59H184.817v2.322l.36.486a.174.174,0,0,0,.123.049h12.137a17.73,17.73,0,1,1-17.591-18.841l.951-.015h.105c.066,0,.123-.01.123-.162v-1.9a.387.387,0,0,0-.047-.206l-.428-.538-.972.138-.486.162c-11.021,0-19.273,9.209-19.273,20.174a19.986,19.986,0,0,0,39.973-.12v-1.134Zm-27.135-9.185a3.13,3.13,0,1,0,3.152,3.134,3.13,3.13,0,0,0-3.152-3.134Z" transform="translate(-155.878 -366.52)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_257" d="M291.217,583.671l-.486.462h7.131l-.465-.475Z" transform="translate(-268.501 -550.098)" fill="#626d77"/>
+      <path id="Path_258" d="M308.943,570.938l.465-.451h-4.669l-.553.451Z" transform="translate(-280.053 -538.776)" fill="#8699a3"/>
+      <path id="Path_259" d="M293.2,436.8h-2.465l.462.442h1.475Z" transform="translate(-268.468 -423.855)" fill="#8d9aa1"/>
+      <path id="Path_260" d="M304.376,456.211l.514-.417V436.8l-.528.439Z" transform="translate(-280.171 -423.962)" fill="url(#linear-gradient-3)"/>
+      <path id="Path_261" d="M337.664,570.938v1.421l.465.475v-2.347Z" transform="translate(-308.799 -538.794)" fill="url(#linear-gradient-4)"/>
+      <path id="Path_262" d="M290.732,436.8v21.346l.486-.462-.021-20.443Z" transform="translate(-268.456 -423.982)" fill="#b4bdc3"/>
+      <path id="Path_263" d="M227.313,442.647a2.639,2.639,0,1,0,.776-1.868,2.645,2.645,0,0,0-.776,1.868Z" transform="translate(-213.958 -426.639)" fill="rgba(0,0,0,0)"/>
+      <path id="Path_264" d="M224.082,439.835a3.1,3.1,0,1,0,.91-2.2,3.105,3.105,0,0,0-.91,2.2Zm5.747,0a2.645,2.645,0,1,1-2.642-2.637A2.645,2.645,0,0,1,229.829,439.835Z" transform="translate(-211.184 -423.824)" fill="url(#linear-gradient-5)"/>
+      <path id="Path_265" d="M350.4,517.024l-12.329-.014-.457.486h12.317l.245-.254Z" transform="translate(-308.974 -492.81)" fill="#505c61"/>
+      <path id="Path_267" d="M338.075,504.258l13.789-.023.467-.47H337.618Z" transform="translate(-308.97 -481.425)" fill="#8f9ca4"/>
+      <path id="Path_268" d="M197.271,389.945V388.8l-.46.462v.684A19.406,19.406,0,1,1,177.4,370.524l.736-.01.454-.441-1.194-.011a19.881,19.881,0,1,0,19.879,19.88Z" transform="translate(-153.918 -366.451)" fill="url(#linear-gradient-6)"/>
+      <path id="Path_269" d="M189.7,383.513l-.512-.011H188.7a17.974,17.974,0,1,0,.034,35.948l.463,0a18.024,18.024,0,0,0,17.7-16.758l.016-.5-.229.209-.241.251a17.52,17.52,0,1,1-17.463-18.7l1.18.011Z" transform="translate(-165.49 -377.979)" fill="url(#linear-gradient-7)"/>
+      <path id="Path_272" d="M338.075,504.278l-.457-.486v2.361l.457-.486Z" transform="translate(-308.751 -481.456)" fill="#b4bdc3"/>
+      <path id="Path_273" d="M304.531,372.055l.46.462v-2.374l-.46.446Z" transform="translate(-280.317 -366.517)" fill="url(#linear-gradient-4)"/>
+      <path id="Path_274" d="M177.9,381.193V401.74h6.531v-1.831h-4.66V381.193Zm.682-9.346a19.63,19.63,0,1,0,19.866,19.626v-.891h-14V392.4H196.59v.266a17.792,17.792,0,1,1-17.747-18.983h.938v-1.838c-.185,0-.486,0-.734-.01Z" transform="translate(-155.361 -367.979)" fill="url(#radial-gradient-2)"/>
+      <path id="Path_275" d="M225.737,441.338a2.854,2.854,0,1,0,.838-2.02,2.856,2.856,0,0,0-.838,2.02" transform="translate(-212.605 -425.329)" fill="url(#radial-gradient-3)"/>
+      <g id="Group_432" transform="translate(3.863 3.862)">
+        <path id="Path_276" d="M229.107,439a2.826,2.826,0,0,1,1.734.606,2.839,2.839,0,1,0-4,3.966,2.8,2.8,0,0,1-.6-1.718A2.859,2.859,0,0,1,229.107,439" transform="translate(-216.438 -429.173)" fill="#fff"/>
+        <path id="Path_277" d="M180.07,371.831c-.25,0-.721-.013-.961-.013A19.772,19.772,0,0,0,159.221,391.4a19.3,19.3,0,0,0,5.826,13.844c.12.118.245.23.366.345a19.286,19.286,0,0,1-5.5-13.5c0-10.773,7.757-19.717,20.153-20.259" transform="translate(-159.221 -371.818)" fill="#fff"/>
+        <path id="Path_278" d="M305.927,572.169a19.3,19.3,0,0,0,4.726.4v-.4Z" transform="translate(-285.419 -544.124)" fill="#fff"/>
+        <path id="Path_279" d="M294.472,439.143v-.588h-1.9V459.4s.593-3.17.593-20.259Z" transform="translate(-273.91 -429.382)" fill="#fff"/>
+        <path id="Path_280" d="M353.517,505.573H339.31v1.848h.515v-1.334c12.379,0,13.692-.517,13.692-.517" transform="translate(-314.291 -486.862)" fill="#fff"/>
+        <path id="Path_281" d="M211.775,518.607a2.206,2.206,0,0,1-.011.275,17.909,17.909,0,0,1-17.714,16.829,17.515,17.515,0,0,1-12.557-5.293,17.954,17.954,0,0,1-4.538-7.891,17.807,17.807,0,0,0,35.052-3.92Z" transform="translate(-174.432 -498.316)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+  <g id="LG전자">
+    <path id="패스_6837" data-name="패스 6837" d="M112.8,8.3v4.4h6.1v1.1c0,4.6-1.9,7-6.8,8.6l1.9,4.2c3.4-.8,6.8-2.8,8.2-5.6,1.5,2.8,4.7,4.7,7.7,5.4l2.4-4.8c-4.3-.9-7.5-3.3-7.5-7.8V12.7h6V8.3Zm27.9-.7h-5.6V14h-5.3v4.6h5.3V30.3h5a29.367,29.367,0,0,0,.7-6.2V7.6Zm.6,26.9H124.7c-.4,0-.6-.1-.6-.6V27.3h-5.6v8.9c0,1.9,1,2.8,2.9,2.8h19.9Zm3.2-26.3v4.4h6.4v2.1c0,5.6-1.1,9.2-7,11.7l2.2,3.9c3.3-1.2,6.5-3.6,7.9-6.6a15.208,15.208,0,0,0,7.4,6.3l2.6-4.6c-5.7-2.1-7.6-5.4-7.6-10.8V12.5h6.2V8.2ZM177.1,16h-5.6V7.6h-5.4V39h4.7a40.733,40.733,0,0,0,.7-7.5v-11h5.6Z" fill="#6d6e71"/>
+    <path id="패스_6838" data-name="패스 6838" d="M66.2,38.6H79.1V32.7H64.6V8.3H57.5V38.6Z" fill="#6d6e71"/>
+    <path id="패스_6839" data-name="패스 6839" d="M94.5,27.1h5.7v5.3a15.962,15.962,0,0,1-5.1.8c-6.3,0-8.4-3.2-8.4-9.7,0-6.2,2-9.9,8.3-9.9,3.5,0,5.5,1.1,7.2,3.2l4.4-4c-2.7-3.8-7.3-5-11.7-5-9.8,0-15,5.4-15,15.6s4.7,15.7,14.9,15.7c4.7,0,9.3-1.2,11.8-3V21.4H94.5Z" fill="#6d6e71"/>
+  </g>
+  <g id="bestshop">
+    <path id="패스_6861" data-name="패스 6861" d="M242,22.3c3,1.5,5.2,2.9,5.2,7.3,0,6-4,9-10.3,9H224.2V8.3h12.1c6.5,0,10.2,2.1,10.1,7.6a6.8,6.8,0,0,1-4.4,6.4M230,13v7.6h5.9c2.5,0,4.2-1.3,4.1-3.8,0-3.1-1.9-3.7-4.2-3.9H230Zm0,12.1v8.7h5.9c3.1.1,4.9-1,4.8-4.3-.1-3.4-2-4.4-4.8-4.3H230Z" fill="#6d6e71"/>
+    <path id="패스_6862" data-name="패스 6862" d="M251.3,8.3h19.3v4.8H257.4v7.5H270v4.7H257.4v8.5h13.7v4.8H251.3Z" fill="#6d6e71"/>
+    <path id="패스_6863" data-name="패스 6863" d="M276.4,32.1a17.934,17.934,0,0,0,8.3,2.1c4.2,0,5.9-1.5,5.9-3.5,0-1.8-1.6-2.7-2.3-3.1-2.4-1.2-5.2-2-7.8-3-3.8-1.8-5.8-3.6-5.8-8.1,0-5.4,4.1-8.7,11.5-8.7,3.2,0,7.2.6,10,2.3l-2,4.5a15.92,15.92,0,0,0-7.9-2c-3.9,0-5.5,1.3-5.5,3.3a2.644,2.644,0,0,0,1,2.3,9.974,9.974,0,0,0,1.9,1.2c2,.9,5,1.8,7.5,3,3,1.4,5.4,3.2,5.4,7.9,0,5.4-4.4,8.7-11.7,8.7a25.263,25.263,0,0,1-10.7-2.5Z" fill="#6d6e71"/>
+    <path id="패스_6864" data-name="패스 6864" d="M299.2,8.3h23.9v4.8h-8.9V38.6h-6V13.1h-9Z" fill="#6d6e71"/>
+    <path id="패스_6865" data-name="패스 6865" d="M339,32.1a17.635,17.635,0,0,0,8.3,2.1c4.2,0,5.9-1.5,5.9-3.5,0-1.8-1.6-2.7-2.3-3.1-2.4-1.2-5.2-2-7.8-3-3.8-1.8-5.8-3.6-5.8-8.1,0-5.4,4.1-8.7,11.5-8.7,3.2,0,7.2.6,10,2.3l-2,4.5a15.92,15.92,0,0,0-7.9-2c-3.9,0-5.5,1.3-5.5,3.3a2.644,2.644,0,0,0,1,2.3,9.974,9.974,0,0,0,1.9,1.2c2,.9,5,1.8,7.5,3,3,1.4,5.4,3.2,5.4,7.9,0,5.4-4.4,8.7-11.7,8.7a25.263,25.263,0,0,1-10.7-2.5Z" fill="#6d6e71"/>
+    <path id="패스_6866" data-name="패스 6866" d="M363.9,8.3H370V20.9h12.5V8.3h6V38.6h-6V25.8H370V38.6h-6.1Z" fill="#6d6e71"/>
+    <path id="패스_6867" data-name="패스 6867" d="M419.5,23.5c0,10.3-4.7,15.5-14.3,15.5-9.9,0-13.2-6.1-13.2-15.7,0-10.3,4.6-15.4,14.2-15.4,9.8-.1,13.3,5.9,13.3,15.6m-21.3.2c0,5.8,1.6,10.5,6.9,10.5,6.3,0,8.1-4,8.1-11.3,0-5.7-1.5-10.5-6.9-10.5-6,0-8.1,4.1-8.1,11.3" fill="#6d6e71"/>
+    <path id="패스_6868" data-name="패스 6868" d="M435.3,8.3H423.9V38.6H430V27.5h5.9c6.3-.1,10-3.8,10-9.9.1-6.2-3.5-9.3-10.6-9.3m-.5,14.5H430V13h4.7c1.2,0,4.9.4,5,4.6-.2,2.4-.9,5.3-4.9,5.2" fill="#6d6e71"/>
+  </g>
+  <path id="라인" d="M213.5,8.08h2.72v30H213.5Z" transform="translate(-14.214 0.42)" fill="#6d6e71"/>
+</svg>
